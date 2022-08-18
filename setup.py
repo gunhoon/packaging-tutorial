@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="example-pkg-gunhoon",
-    version="0.0.1",
+    version="0.0.2",
     author="Gunhoon Lee",
     author_email="gunhoon@gmail.com",
     description="A small example package",
@@ -18,4 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    python_requires=">=3.6",
 )
