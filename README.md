@@ -4,14 +4,14 @@ This is a simple example package.
 
 ## How to build
 
-Make sure you have the latest versions of `setuptools` and `wheel` installed:
+Make sure you have the latest versions of PyPA's `build` installed:
 ```bash
-python3 -m pip install --upgrade setuptools wheel
+python3 -m pip install --upgrade build
 ```
 
 Build the package by running the following command:
 ```bash
-python3 setup.py sdist bdist_wheel
+python3 -m build
 ```
 
 This command generate two files in the `dist` directory:
